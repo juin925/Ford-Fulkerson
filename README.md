@@ -17,9 +17,11 @@
 
 * java.util.LinkedList, java.util.Queue; 를 선언한다.
 
-* Graph 에 그래프 크기와 그래프를 넣어준다.
+* Graph의 크기와 그래프를 넣어주는 함수를 선언한다.
 
-* findMaxFlow 함수에 시작점 source와 끝점 sink를 넣어 최대 유량을 찾는다.
+* findMaxFlow라는 최대유량을 찾는 함수를 선언해준다
+
+* 메인함수에 그래프 크기와 그래프를 만들어준뒤 Graph함수를 이용해 그래프를 선언하고 source와 sinc를 선언해 findMaxFlow에 넣어주고 최대유량을 찾는다.
 
 
 ## Ford-Fulkerson 알고리즘 코드 실행 결과  
